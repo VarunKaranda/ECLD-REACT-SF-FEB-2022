@@ -5,8 +5,8 @@
 
 let array = ["Chess", "Badminton", "Cricket", "Football", "Tennis"];
 
-let newArray = array.reduce(function (string, e ) {
+let newString = array.reduce(function (string, e ) {
     return string + "_" + e
 })
 
-console.log(newArray);
+console.log(newString);

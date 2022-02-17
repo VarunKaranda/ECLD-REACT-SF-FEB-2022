@@ -1,0 +1,45 @@
+
+#calculator {
+  background-image: url(./images/dish.jpg);
+  width: 290px;
+  height: 350px;
+  color: snow;
+  padding: 45px;
+  padding-top: 30px;
+  border-style: none;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 40px;
+}
+input {
+  float: right;
+  clear: both;
+  width: 120px;
+  height: 20px;
+  margin-top: 3px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+p {
+  font-size: 20px;
+}
+#para {
+    color: red;
+    text-align: center;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+#calculate {
+  background-color: black;
+  border-style: none;
+  border-radius: 10px;
+  width: 220px;
+  height: 40px;
+  color: #fff;
+  font-size: 25px;
+  margin-right: 38px;
+  margin-top: 20px;
+}

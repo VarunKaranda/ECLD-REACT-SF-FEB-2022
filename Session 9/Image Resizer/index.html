@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Resizer</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sizing an Image</h1>
+        <p>Increase the width of an image by clicking the plus button and decrease by clicking the minus button. For every action Image increase or decrease by 5px</p>
+        <img src="./chess.jpg" alt="chess image" id="img">
+        <p id="para">Width: 400px</p>
+        <div class="btn-group">
+            <input type="button" id="plus" class="btn" value="+" onclick="plus()">
+            <input type="button" class="btn" value="5px">
+            <input type="button" id="minus" class="btn" value="-" onclick="minus()">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

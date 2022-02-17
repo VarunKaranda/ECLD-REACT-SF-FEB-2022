@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+.container {
+  padding-left: 500px;
+  width: 40%;
+}
+h1 {
+  font-size: 38px;
+  padding-left: 60px;
+}
+.traffic-light {
+  height: 450px;
+  width: 150px;
+  background-color: #333;
+  float: left;
+  border-radius: 40px;
+  margin: 30px 0;
+  padding: 20px;
+}
+.light {
+  height: 120px;
+  width: 120px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 25px auto;
+}
+.control {
+  float: left;
+  padding-top: 30px;
+}
+.button {
+  display: flex;
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  margin: 90px 40px;
+  width: 70px;
+  text-align: center;
+}

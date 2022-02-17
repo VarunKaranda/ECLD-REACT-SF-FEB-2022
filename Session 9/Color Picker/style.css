@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+#title {
+    font-size: 4.5rem;
+    padding-top: 50px;
+}
+.container {
+    display: block;
+    width: 35%;
+    margin: auto;
+}
+.innerdiv {
+    margin: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 20%;  
+    box-sizing: border-box;
+    padding: auto;
+}
+.chinese-white {
+    background-color: #e0e0e0;
+}
+.vangogh-green {
+    background-color:#6fcf97
+}
+.light-blue {
+    background-color:#56ccf2
+}
+.rich-lilac {
+    background-color:#bb6bd9
+}
+div>.para1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #fff;
+    background-color: #000;
+}
+div>.para2 {
+    font-size: 18px;
+}

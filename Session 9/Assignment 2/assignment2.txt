@@ -1,0 +1,2 @@
+Create an btn_color.html file. With an input field (takes the color name) and a button You must fill in valid id and other attributes for elements to make the buttons work.
+When the button Click here to change my color is clicked, the color of the button must change according to the text input. Eg: If the text input is red the color of the button must also change to red!

@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(9, 13, 65);
+  text-align: center;
+}
+
+h1 {
+    font-size:60px;
+    color: rgb(226, 14, 180);
+}
+
+#h1 {
+  font-size: 55px;
+  color: gold;
+}
+button {
+  margin: 20px;
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 22px;
+}
+.outer-div {
+    margin-top: 200px;
+}
+.container {
+  width: 30%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(11, 224, 189);
+  padding: 5px;
+}
+#start {
+  background-color: rgb(17, 209, 17);
+}
+#stop {
+  background-color: red;
+}
+#reset {
+  background-color: blue;
+}

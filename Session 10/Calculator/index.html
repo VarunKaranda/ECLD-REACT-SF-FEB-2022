@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div id="display">
+                <input type="text" class="input" disabled>
+            </div>
+            <div class="buttons">
+                
+                <div class="button" onclick="clearScreen()"> C </div>
+                <div class="button" onclick="clearScreen()"> CE </div>
+                <div class="button" onclick="square()"> x<sup>2</sup></div>
+                <div class="button" onclick="onScreen('/')"> / </div>
+                
+                
+                <div class="button" onclick="onScreen(7)"> 7 </div>
+                <div class="button" onclick="onScreen(8)"> 8 </div>
+                <div class="button" onclick="onScreen(9)"> 9 </div>
+                
+                <div class="button" onclick="onScreen('*')"> * </div>
+                
+                <div class="button" onclick="onScreen(4)"> 4 </div>
+                <div class="button" onclick="onScreen(5)"> 5 </div>
+                <div class="button" onclick="onScreen(6)"> 6 </div>
+                <div class="button" onclick="onScreen('-')"> - </div>
+
+                
+                <div class="button" onclick="onScreen(1)"> 1 </div>
+                <div class="button" onclick="onScreen(2)"> 2 </div>
+                <div class="button" onclick="onScreen(3)"> 3 </div>
+                <div class="button" onclick="onScreen('+')"> + </div>
+                
+                <div class="button" onclick="backSpace()">&larr;</div>
+                
+                
+                <div class="button" onclick="onScreen(0)"> 0 </div>
+                <div class="button" onclick="onScreen('.')"> . </div>
+                <div id="equal" class="button" onclick="calculate()"> = </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

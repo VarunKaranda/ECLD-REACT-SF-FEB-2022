@@ -1,0 +1,21 @@
+h1 {
+color:rgb(212, 66, 13)
+}
+Button {
+  margin: 5px;
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  color:white;
+  padding:0;
+  font-size: 16px;
+}
+.add {
+  background-color: green;
+}
+.subtract {
+  background-color: red;
+}
+.reset {
+  background-color: blue;
+}

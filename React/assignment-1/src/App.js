@@ -1,9 +1,13 @@
 import React from 'react'
-
+import List from "./components/List";
 const App = () => {
   return (
-    <div>App</div>
-  )
+    <>
+      <List />
+    </>
+  );
 }
 
 export default App
+
+

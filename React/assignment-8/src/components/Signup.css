@@ -1,0 +1,36 @@
+.signup-container {
+    width: 30%;
+  /* background-color: rgb(2, 81, 228); */
+  height: 34rem;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: lightsalmon;
+}
+.signup-input {
+    width:70%;
+    height: 25px;
+    border-radius: 10px ;
+}
+.input-div {
+    margin:10px;
+}
+.input-address{
+    border-radius: 10px;
+    width:70%;
+}
+.input-button {
+     border-radius: 10px;
+     height:30px;
+     width:40%;
+     margin:10px;
+     font-size: 17px;
+}
+.signup-checkbox{
+    width:15px;
+    height:15px;
+}

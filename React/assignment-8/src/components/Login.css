@@ -1,0 +1,35 @@
+.login-container {
+  width: 30%;
+  /* background-color: rgb(2, 81, 228); */
+  height: 16.25rem;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: lightsalmon;
+}
+.login-input-div {
+  margin: 20px;
+  text-align: center;
+}
+.login-input {
+  text-align: center;
+  border-radius: 10px;
+  width: 80%;
+  height: 25px;
+}
+.login-button {
+  width: 40%;
+  height: 1.8rem;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.signup-toggle {
+  margin: 10px;
+}
+.signup-button {
+  margin-left: 10px;
+}

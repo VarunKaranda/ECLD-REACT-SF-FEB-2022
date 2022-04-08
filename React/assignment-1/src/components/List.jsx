@@ -4,7 +4,7 @@ import './List.css'
 const List = () => {
   return (
     <div className="container">
-      <div className='soft common'>
+      <div className="soft common">
           <h3>Soft Skills</h3>
           <ul>
               <li>Communication skills</li>
@@ -14,7 +14,7 @@ const List = () => {
               <li>Writing</li>
           </ul>
     </div>
-    <div className='tech common'>
+    <div className="tech common">
           <h3>Technical Skills</h3>
           <ul>
               <li>React</li>
